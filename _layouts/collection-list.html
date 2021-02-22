@@ -1,0 +1,88 @@
+---
+layout: default
+---
+Categories:
+{% assign categories = site.items | map: 'category' | uniq %}
+<ul>
+    {% for category in categories %}
+      <li>
+		<a href="#{{ category | slugify }}"> {{ category }} </a>
+      </li>
+    {% endfor %}
+</ul>
+
+
+{% for category in categories %}
+<h2 id="{{ category | slugify }}">{{ category }}</h2>
+	<ul>
+	{% assign category_items = site.items | where: 'category', category %}
+	{% for item in category_items %}
+	<li data-category = {{ item.category}} data-tags = {{item.tags}}>
+		<a href={{ item.website }}>{{ item.name }}</a> <a href={{item.url}}>—</a> {{item.description}}
+	</li>
+	{% endfor %}
+	</ul>
+{% endfor %}
+
+<hr>
+{% assign rawtags = "" %}
+{% for item in site.items %}
+	{% assign ttags = item.tags | join:'|' | append:'|' %}
+	{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+{% assign tags = "" %}
+
+{% for tag in rawtags %}
+	{% if tag != "" %}
+		{% if tags == "" %}
+			{% assign tags = tag | split:'|' %}
+		{% endif %}
+		{% unless tags contains tag %}
+			{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+		{% endunless %}
+	{% endif %}
+{% endfor %}
+
+{% comment %}
+Some stuff i want to use but i'm lazy to remove yet
+
+Tags:
+
+{% for tag in tags %}
+	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
+{% endfor %}
+{% for tag in tags %}
+	<h2 id="{{ tag | slugify }}">{{ tag }}</h2>
+	<ul>
+	 {% for item in site.items %}
+		 {% if item.tags contains tag %}
+		 <li>
+		 <h3>
+		 <a href="{{ item.url }}">
+		 {{ item.title }}
+		 <small>{{ item.date | date_to_string }}</small>
+		 </a>
+		 {% for tag in item.tags %}
+			 <a class="tag" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>
+		 {% endfor %}
+		 </h3>
+		 </li>
+		 {% endif %}
+	 {% endfor %}
+	</ul>
+{% endfor %}
+
+
+
+<ul id='itemlist'>
+    {% for item in site.data.items %}
+      <li data-category = {{ item.category}}>
+        <a href={{ item.url }}>
+          {{ item.name }}
+        </a> - {{item.description}}
+      </li>
+    {% endfor %}
+</ul>
+
+{% endcomment %}

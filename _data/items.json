@@ -1,0 +1,411 @@
+[
+    {
+        "category": "APIs",
+        "name": "google-drive-remarkable-sync",
+        "url": "https://github.com/bsdz/google-drive-remarkable-sync",
+        "description": "Apps Script API for reMarkable Cloud. Includes Synchronizer capability to automate mirroring of documents from Google Drive to reMarkable Cloud."
+    },
+    {
+        "category": "APIs",
+        "name": "jrmapi",
+        "url": "https://github.com/jlarriba/jrmapi",
+        "description": "A Java API for the reMarkable Cloud."
+    },
+    {
+        "category": "APIs",
+        "name": "libreMarkable",
+        "url": "https://github.com/canselcik/libremarkable",
+        "description": "A framework for developing applications with native refresh support for reMarkable Tablet."
+    },
+    {
+        "category": "APIs",
+        "name": "lines-are-beautiful",
+        "url": "https://github.com/ax3l/lines-are-beautiful",
+        "description": "C++ File API for the reMarkable tablet."
+    },
+    {
+        "category": "APIs",
+        "name": "lines-are-rusty",
+        "url": "https://github.com/ax3l/lines-are-rusty",
+        "description": "Rust File API for the reMarkable tablet."
+    },
+    {
+        "category": "APIs",
+        "name": "fc-rM",
+        "url": "https://github.com/artagnon/FreelyCommute/tree/master/rM",
+        "description": "C++ Parser for the .rM v5 format."
+    },
+    {
+        "category": "APIs",
+        "name": "reMarkableAPI",
+        "url": "https://github.com/splitbrain/ReMarkableAPI",
+        "description": "Docs and implementation of the reMarkable file sync API."
+    },
+    {
+        "category": "APIs",
+        "name": "reMarkable-layers",
+        "url": "https://github.com/bsdz/remarkable-layers",
+        "description": "Python API for reading & writing reMarkable Lines format. Supports very basic conversion of PDFs and SVGs to Lines format. "
+    },
+    {
+        "category": "APIs",
+        "name": "reMarkable-typescript",
+        "url": "https://github.com/Ogdentrod/reMarkable-typescript",
+        "description": "TypeScript API for reMarkable Cloud."
+    },
+    {
+        "category": "APIs",
+        "name": "rMAPI",
+        "url": "https://github.com/juruen/rmapi",
+        "description": "ReMarkable Cloud Go API."
+    },
+    {
+        "category": "APIs",
+        "name": "rmapy",
+        "url": "https://github.com/subutux/rmapy",
+        "description": "ReMarkable Cloud Python API."
+    },
+    {
+        "category": "APIs",
+        "name": "rmfakecloud",
+        "url": "https://github.com/ddvk/rmfakecloud",
+        "description": "Fake Cloud Sync, server implementation of the Cloud API."
+    },
+    {
+        "category": "Applications",
+        "name": "harmony",
+        "url": "https://rmkit.dev/apps/harmony",
+        "description": "a low latency sketching app with procedural brushes."
+    },
+    {
+        "category": "Applications",
+        "name": "KOReader",
+        "url": "https://github.com/koreader/koreader",
+        "description": "An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats."
+    },
+    {
+        "category": "Applications",
+        "name": "plato",
+        "url": "https://github.com/darvin/plato",
+        "description": "Plato reader port. Supports pdfs, epubs, many other formats."
+    },
+    {
+        "category": "Applications",
+        "name": "reMarkable keywriter",
+        "url": "https://github.com/dps/remarkable-keywriter",
+        "description": "A distraction free keyboard notes app."
+    },
+    {
+        "category": "Applications",
+        "name": "reMarkable wikipedia",
+        "url": "https://github.com/dps/remarkable-wikipedia",
+        "description": "Offline wikipedia reader for reMarkable.",
+        "tags":  ["web", "rM2"]
+    },
+    {
+        "category": "Applications",
+        "name": "chessMarkable",
+        "url": "https://github.com/LinusCDE/chessmarkable",
+        "description": "Play chess against a bot or a friend."
+    },
+    {
+        "category": "Applications",
+        "name": "minesweeper",
+        "url": "https://rmkit.dev/apps/minesweeper",
+        "description": "A mine detection game."
+    },
+    {
+        "category": "Applications",
+        "name": "retris",
+        "url": "https://github.com/LinusCDE/retris",
+        "description": "Play a clone of the popular block stacking game with either buttons or swipe guestures."
+    },
+    {
+        "category": "Applications",
+        "name": "draft-reMarkable",
+        "url": "https://github.com/dixonary/draft-reMarkable",
+        "description": "A launcher for the reMarkable tablet, which wraps around the standard interface."
+    },
+    {
+        "category": "Applications",
+        "name": "oxide",
+        "url": "https://github.com/Eeems/oxide/releases",
+        "description": "A launcher application for the reMarkable tablet."
+    },
+    {
+        "category": "Applications",
+        "name": "remux",
+        "url": "https://rmkit.dev/apps/remux",
+        "description": "A multi-tasking launcher for the reMarkable tablet."
+    },
+    {
+        "category": "Cloud Tools",
+        "name": "CUPS Printing",
+        "url": "https://ofosos.org/2018/10/22/printing-to-remarkable-cloud-from-cups/",
+        "description": "Script to print directly to reMarkable Cloud from CUPS using rMAPI."
+    },
+    {
+        "category": "Cloud Tools",
+        "name": "rM-sync",
+        "url": "https://github.com/simonschllng/rm-sync",
+        "description": "Sync script for reMarkable paper tablet."
+    },
+    {
+        "category": "Cloud Tools",
+        "name": "reMarkable_syncthing",
+        "url": "http://github.com/evidlo/remarkable_syncthing",
+        "description": "Syncthing on reMarkable."
+    },
+    {
+        "category": "Cloud Tools",
+        "name": "zotero-reMarkable",
+        "url": "https://github.com/michaelmior/zotero-remarkable",
+        "description": "Script to sync PDFs from the [Zotero](https://www.zotero.org/) reference manager."
+    },
+    {
+        "category": "Cloud Tools",
+        "name": "sync_zotero_remarkable",
+        "url": "https://github.com/danijoo/sync_zotero_remarkable",
+        "description": "Sync PDFs from Zotero to Remarkable."
+    },
+    {
+        "category": "GUI Clients",
+        "name": "asTounding",
+        "url": "https://github.com/jlarriba/astounding",
+        "description": " A multiplatform GUI application for the reMarkable cloud, including Linux."
+    },
+    {
+        "category": "GUI Clients",
+        "name": "RemaDroid",
+        "url": "https://play.google.com/store/apps/details?id=org.remadroid",
+        "description": "An alternative Android app to upload documents, webpages or images to the reMarkable tablet."
+    },
+    {
+        "category": "GUI Clients",
+        "name": "RemaPy",
+        "url": "https://github.com/peerdavid/remapy",
+        "description": "GUI to browse, download/upload files and backup the tablet (also on Linux) using the cloud."
+    },
+    {
+        "category": "GUI Clients",
+        "name": "reMarkable-assistant",
+        "url": "https://github.com/richeymichael/remarkable-assistant",
+        "description": "Manage templates, splash screens, and settings on your reMarkable tablet."
+    },
+    {
+        "category": "GUI Clients",
+        "name": "reMarkable Connection Utility (RCU)",
+        "url": "http://www.davisr.me/projects/rcu/",
+        "description": "A cross-platform client for offline management of backups, screenshots, notebooks, templates, wallpaper, and third-party software."
+    },
+    {
+        "category": "GUI Clients",
+        "name": "reMarkable-hyutilities",
+        "url": "https://github.com/moovida/remarkable-hyutilities",
+        "description": "A GUI written in java to backup your device, upload templates and modify splash screens."
+    },
+    {
+        "category": "GUI Clients",
+        "name": "ReMy",
+        "url": "https://github.com/bordaigorl/remy",
+        "description": "A GUI to browse, preview documents, export documents with custom settings, all via SSH (no cloud needed); works from local raw backups too."
+    },
+    {
+        "category": "GUI Clients",
+        "name": "rMExplorer",
+        "url": "https://github.com/bruot/pyrmexplorer/wiki",
+        "description": "GUI to browse, download/upload files and backup the tablet without using the cloud."
+    },
+    {
+        "category": "GUI Clients",
+        "name": "rmUploader",
+        "url": "https://github.com/lobre/rmuploader",
+        "description": "Simple web app to upload epub or pdf files to the reMarkable tablet via drag and drop."
+    },
+    {
+        "category": "Other",
+        "name": "Crazy Cow",
+        "url": "https://github.com/machinelevel/sp425-crazy-cow",
+        "description": "Typewriter input from USB keyboard directly into reMarkable interface."
+    },
+    {
+        "category": "Other",
+        "name": "Funcky reMarkable Exporter",
+        "url": "https://github.com/simonbaudart/Funcky.Remarkable.Exporter",
+        "description": "Export notes from a reMarkable Tablet to File System and External Services."
+    },
+    {
+        "category": "Other",
+        "name": "instapaper-as-pdf-to-reMarkable",
+        "url": "https://github.com/fabianmu/instapaper-as-pdf-to-remarkable",
+        "description": "Export Instapaper-Articles to PDF and send them to a connected rM tablet."
+    },
+    {
+        "category": "Other",
+        "name": "morningpaper2reMarkable",
+        "url": "https://github.com/jessfraz/morningpaper2remarkable",
+        "description": "A bot to sync the morning paper to a remarkable tablet."
+    },
+    {
+        "category": "Other",
+        "name": "paper2reMarkable",
+        "url": "https://github.com/GjjvdBurg/paper2remarkable",
+        "description": "Download an academic paper or HTML article, crop it, and send it to the reMarkable with a single command."
+    },
+    {
+        "category": "Other",
+        "name": "Parabola-rM",
+        "url": "http://www.davisr.me/projects/parabola-rm/",
+        "description": "A Desktop GNU/Linux-libre replacement OS with fast partial refreshing and USB OTG."
+    },
+    {
+        "category": "Other",
+        "name": "pocket2rm",
+        "url": "https://github.com/glidergeek/pocket2rm",
+        "description": "Synchronize articles from read-later platform pocket in PDF and epub."
+    },
+    {
+        "category": "Other",
+        "name": "reHackable/maxio",
+        "url": "https://github.com/reHackable/maxio",
+        "description": "Companion daemon for the reMarkable paper tablet."
+    },
+    {
+        "category": "Other",
+        "name": "reHackable/scripts",
+        "url": "https://github.com/reHackable/scripts",
+        "description": "A set of bash scripts that may enhance your reMarkable experience."
+    },
+    {
+        "category": "Other",
+        "name": "reMarkable_entware",
+        "url": "http://github.com/evidlo/remarkable_entware",
+        "description": "Package manager for reMarkable.  Install common Unix utilities through the command line."
+    },
+    {
+        "category": "Other",
+        "name": "reMarkable_keyboard",
+        "url": "https://github.com/Evidlo/remarkable_keyboard",
+        "description": "Software to use rM as wireless keyboard/mouse."
+    },
+    {
+        "category": "Other",
+        "name": "reMarkable_mouse",
+        "url": "https://github.com/evidlo/remarkable_mouse",
+        "description": "Use your reMarkable as a graphics tablet."
+    },
+    {
+        "category": "Other",
+        "name": "remarkable_news",
+        "url": "https://github.com/evidlo/remarkable_news",
+        "description": "Use daily news/comics/images as the suspend screen."
+    },
+    {
+        "category": "Other",
+        "name": "reMarkable_pdflets",
+        "url": "https://github.com/evidlo/remarkable_pdflets",
+        "description": "Dynamically updating PDFs."
+    },
+    {
+        "category": "Other",
+        "name": "remarkable_printer",
+        "url": "https://github.com/Evidlo/remarkable_printer",
+        "description": "Print from any device to reMarkable without browser extensions or reMarkable cloud."
+    },
+    {
+        "category": "Other",
+        "name": "reMarkable-fs",
+        "url": "https://github.com/nick8325/remarkable-fs",
+        "description": "A FUSE filesystem wrapper for the reMarkable tablet."
+    },
+    {
+        "category": "Other",
+        "name": "reMarkable-random-screens",
+        "url": "https://github.com/Neurone/reMarkable",
+        "description": "Change your poweroff and suspend screens every 5 minutes with random images of your choice"
+    },
+    {
+        "category": "Other",
+        "name": "reMarkable-touchgestures",
+        "url": "https://github.com/ddvk/remarkable-touchgestures",
+        "description": "Touch gestures (swipe/touch) for easy page navigation."
+    },
+    {
+        "category": "Other",
+        "name": "reMarkable-tweak",
+        "url": "https://github.com/morngrar/remarkable-tweak",
+        "description": "Tweak tool for the reMarkable paper tablet. Lets you organize your templates with no fuss."
+    },
+    {
+        "category": "Other",
+        "name": "remarks",
+        "url": "https://github.com/lucasrla/remarks",
+        "description": "Extract highlights, scribbles, and annotations from PDFs. Export to Markdown, PNG, and SVG."
+    },
+    {
+        "category": "Other",
+        "name": "remt",
+        "url": "https://gitlab.com/wrobell/remt",
+        "description": "reMarkable tablet command-line tools."
+    },
+    {
+        "category": "Other",
+        "name": "rM-dl-annotated",
+        "url": "https://github.com/jmptable/rm-dl-annotated",
+        "description": "Export annotated PDFs from reMarkable tablets."
+    },
+    {
+        "category": "Other",
+        "name": "rMsync",
+        "url": "https://github.com/lschwetlick/rMsync",
+        "description": "Synchronisation script with a local dedicated \"library\" folder."
+    },
+    {
+        "category": "Other",
+        "name": "rmTabletDriver",
+        "url": "https://github.com/LinusCDE/rmTabletDriver",
+        "description": "Application that allows you to simulate/clone rM input on your computer."
+    },
+    {
+        "category": "Other",
+        "name": "rmWacomToMouse",
+        "url": "https://github.com/LinusCDE/rmWacomToMouse",
+        "description": "Use the wacom pen as a mouse to draw on your pc."
+    },
+    {
+        "category": "Other",
+        "name": "rmWebUiTools",
+        "url": "https://github.com/LinusCDE/rmWebUiTools",
+        "description": "View a file tree, see statistics and export/backup all files with some simple scripts utilizing the web ui."
+    },
+    {
+        "category": "Screen Sharing/Streaming",
+        "name": "reStream",
+        "url": "https://github.com/rien/reStream",
+        "description": "Stream your reMarkable screen over SSH."
+    },
+    {
+        "category": "Screen Sharing/Streaming",
+        "name": "rMview",
+        "url": "https://github.com/bordaigorl/rmview",
+        "description": "A fast GUI to stream your reMarkable screen over vanilla-SSH or VNC."
+    },
+    {
+        "category": "Screen Sharing/Streaming",
+        "name": "rM-vnc-server",
+        "url": "https://github.com/peter-sa/rM-vnc-server",
+        "description": "A fast & efficient damage-tracking (sending only updated regions) VNC server for streaming the reMarkable's screen."
+    },
+    {
+        "category": "Screen Sharing/Streaming",
+        "name": "srvfb",
+        "url": "https://github.com/merovius/srvfb",
+        "description": "Alternative screen-streaming software. Written in Go."
+    },
+    {
+        "category": "Screen Sharing/Streaming",
+        "name": "VNSee",
+        "url": "https://github.com/matteodelabre/vnsee",
+        "description": "VNC client for the reMarkable tablet allowing you to use the device as a second screen."
+    }
+]

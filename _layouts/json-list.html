@@ -1,0 +1,22 @@
+---
+layout: default
+---
+Categories:
+{% assign categories = site.data.items | map: 'category' | uniq %}
+<ul>
+    {% for category in categories %}
+      <li>
+          {{category}}
+      </li>
+    {% endfor %}
+</ul>
+
+<ul id='itemlist'>
+    {% for item in site.data.items %}
+      <li data-category = {{ item.category}}>
+        <a href={{ item.url }}>
+          {{ item.name }}
+        </a> - {{item.description}}
+      </li>
+    {% endfor %}
+</ul>
