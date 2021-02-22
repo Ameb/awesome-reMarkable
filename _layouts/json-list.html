@@ -14,7 +14,7 @@ Categories:
 <ul id='itemlist'>
     {% for item in site.data.items %}
       <li data-category = {{ item.category}}>
-        <a href={{ item.url }}>
+        <a href={{ item.url | relative_url }}>
           {{ item.name }}
         </a> - {{item.description}}
       </li>

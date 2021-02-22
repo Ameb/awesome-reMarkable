@@ -18,7 +18,7 @@ Categories:
 	{% assign category_items = site.items | where: 'category', category %}
 	{% for item in category_items %}
 	<li data-category = {{ item.category}} data-tags = {{item.tags}}>
-		<a href={{ item.website }}>{{ item.name }}</a> <a href={{item.url}}>—</a> {{item.description}}
+		<a href={{ item.website }}>{{ item.name }}</a> <a href={{item.url | relative_url }}>—</a> {{item.description}}
 	</li>
 	{% endfor %}
 	</ul>
@@ -59,7 +59,7 @@ Tags:
 		 {% if item.tags contains tag %}
 		 <li>
 		 <h3>
-		 <a href="{{ item.url }}">
+		 <a href="{{ item.url | relative_url }}">
 		 {{ item.title }}
 		 <small>{{ item.date | date_to_string }}</small>
 		 </a>
@@ -78,7 +78,7 @@ Tags:
 <ul id='itemlist'>
     {% for item in site.data.items %}
       <li data-category = {{ item.category}}>
-        <a href={{ item.url }}>
+        <a href={{ item.url | relative_url }}>
           {{ item.name }}
         </a> - {{item.description}}
       </li>
